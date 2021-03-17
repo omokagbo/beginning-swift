@@ -49,10 +49,3 @@ func albumIsTaylor(name: String) -> Bool {
 	return false
 }
 
-if albumIsTaylor(name: "Red") {
-	print("that is one of hers")
-} else {
-	print("who made that?")
-}
-
-albumIsTaylor(name: "BLue")
